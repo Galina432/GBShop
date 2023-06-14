@@ -94,10 +94,10 @@
 		8C046A192A376D3B00D96E21 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				8C046A1A2A376D3B00D96E21 /* GBShopApp.swift */,
-				8C046A1C2A376D3B00D96E21 /* ContentView.swift */,
-				8C046A1E2A376D3C00D96E21 /* Assets.xcassets */,
-				8C046A202A376D3C00D96E21 /* Preview Content */,
+				8C046A472A376E0600D96E21 /* App */,
+				8C046A462A376DFE00D96E21 /* Core */,
+				8C046A452A376DF200D96E21 /* Resources */,
+				8C046A442A376DE300D96E21 /* Environments */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -125,6 +125,70 @@
 				8C046A372A376D3C00D96E21 /* GBShopUITestsLaunchTests.swift */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		8C046A442A376DE300D96E21 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		8C046A452A376DF200D96E21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C046A202A376D3C00D96E21 /* Preview Content */,
+				8C046A1E2A376D3C00D96E21 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C046A462A376DFE00D96E21 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8C046A472A376E0600D96E21 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C046A1A2A376D3B00D96E21 /* GBShopApp.swift */,
+				8C046A4B2A376E2200D96E21 /* BusinessLogic */,
+				8C046A4A2A376E1A00D96E21 /* Entity */,
+				8C046A492A376E1100D96E21 /* Assembly */,
+				8C046A482A376E0B00D96E21 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C046A482A376E0B00D96E21 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				8C046A1C2A376D3B00D96E21 /* ContentView.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		8C046A492A376E1100D96E21 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		8C046A4A2A376E1A00D96E21 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8C046A4B2A376E2200D96E21 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
